@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS tel_numbers (
 def text_recognition(file_path):
     reader = easyocr.Reader(['ru'])
     result = reader.readtext(file_path)
-cd/ro
+
     return result
 
 
